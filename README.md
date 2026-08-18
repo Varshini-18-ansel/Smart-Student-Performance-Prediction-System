@@ -144,4 +144,50 @@ Risk Level: Low
 
 Recommendation: Maintain current study pattern and attendance
 
+## 7. SYSTEM DESIGN
+### 7.1 INPUTS
+- Student ID
+- Student Name
+- Attendance %
+- Study Hours
+- Internal Marks
+- Assignment Completion %
+- Previous Academic Performance
+### 7.2 PROCESSING
+- Validate input
+- Preprocess data
+- Send data to ML model
+- Generate prediction
+- Generate recommendation
+### 7.3 OUTPUTS
+- Predicted performance
+- Performance category
+- Risk level
+- Recommendation
+
+## 8. SYSTEM ARCHITECTURE
+<img width="1600" height="800" alt="WhatsApp Image 2026-08-18 at 11 30 39 AM" src="https://github.com/user-attachments/assets/e4f937d4-530e-4dea-b859-2758e9d2535d" />
+
+## 9. UI DESIGN REQUIREMENTS
+The application should contain:
+### 9.1 STUDENT ACADEMIC SECTION
+- Student ID
+- Student Name
+### 9.2 ACADEMIC INFORMATION SECTION
+- Attendance
+- Study Hours
+- Internal Marks
+- Assignment Completion
+- Previous Performance
+### 9.3 ACTION SECTION
+- Predict Performance
+- Clear
+- Exit
+### 9.4 RESULT SECTION
+- Predicted Performance
+- Risk Level
+- Recommendation
+
+
+
 
